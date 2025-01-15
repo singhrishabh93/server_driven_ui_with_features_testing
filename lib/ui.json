@@ -1,0 +1,90 @@
+
+[
+  {
+    "uiConfig": {
+      "theme": "light",
+      "primaryColor": "#2196F3",
+      "buttonStyle": {
+        "radius": 8.0,
+        "height": 48.0,
+        "width": 200.0
+      },
+      "components": ["header", "searchBar", "productList"],
+      "fonts": {
+        "titleFont": "Roboto",
+        "bodyFont": "OpenSans"
+      },
+      "spacing": {
+        "small": 8.0,
+        "medium": 16.0,
+        "large": 24.0
+      }
+    },
+    "features": {
+      "darkMode": true,
+      "search": true,
+      "filters": true,
+      "sorting": true,
+      "wishlist": false,
+      "cart": true
+    }
+  },
+  {
+    "uiConfig": {
+      "theme": "dark",
+      "primaryColor": "#BB86FC",
+      "buttonStyle": {
+        "radius": 12.0,
+        "height": 52.0,
+        "width": 220.0
+      },
+      "components": ["header", "searchBar", "productList"],
+      "fonts": {
+        "titleFont": "Roboto",
+        "bodyFont": "OpenSans"
+      },
+      "spacing": {
+        "small": 10.0,
+        "medium": 20.0,
+        "large": 30.0
+      }
+    },
+    "features": {
+      "darkMode": true,
+      "search": true,
+      "filters": true,
+      "sorting": true,
+      "wishlist": true,
+      "cart": true
+    }
+  },
+  {
+    "uiConfig": {
+      "theme": "light",
+      "primaryColor": "#FF4081",
+      "buttonStyle": {
+        "radius": 4.0,
+        "height": 44.0,
+        "width": 180.0
+      },
+      "components": ["header", "productList"],
+      "fonts": {
+        "titleFont": "Roboto",
+        "bodyFont": "OpenSans"
+      },
+      "spacing": {
+        "small": 6.0,
+        "medium": 12.0,
+        "large": 18.0
+      }
+    },
+    "features": {
+      "darkMode": false,
+      "search": false,
+      "filters": false,
+      "sorting": false,
+      "wishlist": false,
+      "cart": true
+    }
+  }
+]
